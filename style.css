@@ -1,0 +1,17 @@
+.list {
+    display: grid;
+    border: 1px solid #000;
+    /* grid-template-rows: 140px auto; */
+    /* grid-template-columns: repeat(4, 1fr);
+    that's normal way to static way
+    */
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+
+.items {
+    color: white;
+    background-color: gray;
+    height: 300px;
+    border: 1px solid #000;
+}
